@@ -2,7 +2,6 @@ import requests
 from lxml import html
 
 
-
 def technical_search(technical_cout, search_res_url, headers=None):
     if headers is None:
         headers = {'user-agent': 'OPR/73.0.3856.438 (Edition Yx GX)'}
