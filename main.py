@@ -7,6 +7,7 @@ from transliterate.utils import LanguageDetectionError
 from aiogram import Bot, Dispatcher, executor, types
 from funct import technical_search
 
+
 bot = Bot(token="1992902359:AAFCxvq5-g7-R_D0nTW_pMJraau3pVMk5NU")
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
